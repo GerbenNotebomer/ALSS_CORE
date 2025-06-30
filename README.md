@@ -20,7 +20,8 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 - **Batterijselectie**: kies welke batterijdata getoond wordt via een dropdown.  
 - **Gestileerde UI**: duidelijke lay-out met CSS en visuele progress bars voor batterijpercentage.  
 - **Gebruiksvriendelijke structuur**: gescheiden routes en rendering functies voor overzichtelijkheid.  
-- **JSON REST API endpoint `/data.json`**: levert alle actuele sensor- en batterijdata in JSON-formaat voor de frontend.
+- **JSON REST API endpoint `/data.json`**: levert alle actuele sensor- en batterijdata in JSON-formaat voor de frontend.  
+- **Debug log webinterface**: live debuglogs bekijken, debugmodules dynamisch aan/uit zetten, en logbuffer wissen via een gebruiksvriendelijke pagina met REST API ondersteuning.
 
 ---
 
@@ -32,10 +33,12 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 - Belangrijke bestanden/modules:  
   - `route_dashboard.cpp` / `.h` — dashboard pagina en routes  
   - `route_json.cpp` / `.h` — JSON data endpoint `/data.json`  
+  - `route_debug_log.cpp` / `.h` — debug log webinterface en API  
   - `HtmlUtils` — hulpfuncties voor HTML-rendering  
   - `langManager` — vertaalmanager voor meertaligheid  
   - `CacheManager` — cache systeem voor efficiënte JSON data updates  
-- Data wordt opgehaald via het endpoint `/data.json` dat realtime metingen en batterijstatussen retourneert.
+- Data wordt opgehaald via het endpoint `/data.json` dat realtime metingen en batterijstatussen retourneert.  
+- Debug logs worden beheerd en weergegeven via een aparte webpagina met live updates en instellingen.
 
 ---
 
@@ -46,7 +49,8 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 3. Zorg dat dependencies (ESPAsyncWebServer, ArduinoJson, HtmlUtils, langManager) beschikbaar zijn  
 4. Compileer en upload naar je ESP32/ESP8266  
 5. Verbind met het WiFi netwerk van het apparaat of stel WiFi in in de code  
-6. Navigeer in je browser naar `http://<ip-van-je-esp>/dashboard` om het dashboard te openen
+6. Navigeer in je browser naar `http://<ip-van-je-esp>/dashboard` om het dashboard te openen  
+7. Voor debug logs navigeer naar `http://<ip-van-je-esp>/debuglog`
 
 ---
 
@@ -56,12 +60,14 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 #include <ESPAsyncWebServer.h>
 #include "route_dashboard.h"
 #include "route_json.h"
+#include "route_debug_log.h"
 
 AsyncWebServer server(80);
 
 void setup() {
     RouteDashboard::registerRoutes(server);
     RouteJson::registerRoutes(server);
+    RouteDebugLog::registerRoutes(server);
     server.begin();
 }
 
