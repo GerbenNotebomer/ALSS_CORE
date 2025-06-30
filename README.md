@@ -21,7 +21,12 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 - **Gestileerde UI**: duidelijke lay-out met CSS en visuele progress bars voor batterijpercentage.  
 - **Gebruiksvriendelijke structuur**: gescheiden routes en rendering functies voor overzichtelijkheid.  
 - **JSON REST API endpoint `/data.json`**: levert alle actuele sensor- en batterijdata in JSON-formaat voor de frontend.  
-- **Debug log webinterface**: live debuglogs bekijken, debugmodules dynamisch aan/uit zetten, en logbuffer wissen via een gebruiksvriendelijke pagina met REST API ondersteuning.
+- **Debug log webinterface**: live debuglogs bekijken, debugmodules dynamisch aan/uit zetten, en logbuffer wissen via een gebruiksvriendelijke pagina met REST API ondersteuning.  
+- **Opslagbeheer SDCard/LittleFS**: beheert SD-kaart en LittleFS voor bestandsopslag, inclusief lezen, schrijven, verwijderen en directory listings.  
+- **Energielogging naar CSV**: periodiek loggen van energiewaarden naar bestanden op SD-kaart of LittleFS met bufferbeheer voor efficiënt wegschrijven.  
+- **Configuratieparameters beheer**: laadt, bewaart en beheert projectparameters vanuit een bestand op SD-kaart met fallback naar standaardwaarden.  
+- **Dynamische parameterupdates**: ondersteunt reflectie-achtige functies voor uitlezen en bijwerken van parameters via string key=value paren.  
+- **Parameters voor WiFi, timers en taal**: centrale plek voor belangrijke instellingen met eenvoudige API voor aanpassing.
 
 ---
 
@@ -38,7 +43,9 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
   - `langManager` — vertaalmanager voor meertaligheid  
   - `CacheManager` — cache systeem voor efficiënte JSON data updates  
 - Data wordt opgehaald via het endpoint `/data.json` dat realtime metingen en batterijstatussen retourneert.  
-- Debug logs worden beheerd en weergegeven via een aparte webpagina met live updates en instellingen.
+- Debug logs worden beheerd en weergegeven via een aparte webpagina met live updates en instellingen.  
+- Gebruik van het Singleton-patroon in modules zoals `AHT20BMP280_Module` om te garanderen dat er slechts één instantie is die de sensorinterface beheert.  
+- Moderne C++ technieken (zoals `= delete` voor copy-constructor en assignment-operator) worden gebruikt om Singleton-eigenschappen af te dwingen en de codebase overzichtelijk en veilig te houden.  
 
 ---
 
@@ -59,7 +66,8 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 - **Basiskennis C++ en Arduino framework**: je moet comfortabel zijn met programmeren in C++ en bekend zijn met de Arduino-omgeving.  
 - **Ervaring met ESP32/ESP8266**: basiskennis van deze microcontrollers, zoals het instellen van WiFi en het uploaden van code, is vereist.  
 - **Webtechnologieën (basis)**: begrip van REST API’s, JSON en frontend technologieën zoals JavaScript en HTML helpt bij het begrijpen van het dashboard en het uitbreiden ervan.  
-- **Debugging en logging**: kennis van debugmethodes en het interpreteren van logbestanden is handig om problemen op te sporen en de debugfunctionaliteit effectief te gebruiken.
+- **Debugging en logging**: kennis van debugmethodes en het interpreteren van logbestanden is handig om problemen op te sporen en de debugfunctionaliteit effectief te gebruiken.  
+- **Begrip van softwareontwerppatronen**: zoals het Singleton-patroon dat wordt gebruikt voor hardwaremodules, om te kunnen navigeren in de architectuur en uitbreidingen veilig toe te passen.
 
 ---
 
