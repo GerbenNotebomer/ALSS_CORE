@@ -1,0 +1,1472 @@
+{
+  "alert.fields_required": {
+    "nl": "Vul alle velden in en zorg dat metingen beschikbaar zijn.",
+    "en": "Fill in all fields and ensure measurements are available.",
+    "de": "Füllen Sie alle Felder aus und stellen Sie sicher, dass Messungen verfügbar sind.",
+    "pt": "Preencha todos os campos e garanta que as medições estejam disponíveis.",
+    "fy": "Folje alle fjilden yn en soargje dat mjittingen beskikber binne.",
+    "nl-gronings": "Vul alle velden in en zorg dat de metingen bescchikbaar bint.",
+    "nl-nedersaksisch": "Vul alle velden in en zorg dat der metings beschikbaar binnen.",
+    "fr": "Remplissez tous les champs et assurez-vous que des mesures sont disponibles."
+  },
+  "algemeen.fout": {
+    "nl": "Fout",
+    "en": "Error",
+    "de": "Fehler",
+    "pt": "Erro",
+    "fy": "Fout",
+    "nl-gronings": "Fout",
+    "nl-nedersaksisch": "Fout",
+    "fr": "Erreur"
+  },
+  "algemeen.succes": {
+    "nl": "Succes",
+    "en": "Success",
+    "de": "Erfolg",
+    "pt": "Sucesso",
+    "fy": "Sukses",
+    "nl-gronings": "Succes",
+    "nl-nedersaksisch": "Succes",
+    "fr": "Succès"
+  },
+  "bevestiging.wisdebuglog.melding": {
+    "nl": "Weet u zeker dat u debug log wilt wissen?",
+    "en": "Are you sure you want to clear the debug log?",
+    "de": "Sind Sie sicher, dass Sie das Debug-Protokoll löschen möchten?",
+    "pt": "Tem certeza de que deseja limpar o log de depuração?",
+    "fy": "Binne jo wis dat jo it debug‑log wiskje wolle?",
+    "nl-gronings": "Bisto seker dat je de debug log wiesen wult?",
+    "nl-nedersaksisch": "Binst der zeker van dat ie de debug-log wissen wilt?",
+    "fr": "Êtes-vous sûr de vouloir effacer le journal de débogage ?"
+  },
+  "button.annuleren": {
+    "nl": "Annuleren",
+    "en": "Cancel",
+    "de": "Abbrechen",
+    "pt": "Cancelar",
+    "fy": "Annulearje",
+    "nl-gronings": "Afbreken",
+    "nl-nedersaksisch": "Annuleer’n",
+    "fr": "Annuler"
+  },
+  "button.bereken": {
+    "nl": "Bereken",
+    "en": "Calculate",
+    "de": "Berechnen",
+    "pt": "Calcular",
+    "fy": "Berekenje",
+    "nl-gronings": "Bereken",
+    "nl-nedersaksisch": "Berekenen",
+    "fr": "Calculer"
+  },
+  "button.ja": {
+    "nl": "Ja",
+    "en": "Yes",
+    "de": "Ja",
+    "pt": "Sim",
+    "fy": "Ja",
+    "nl-gronings": "Ja",
+    "nl-nedersaksisch": "Ja",
+    "fr": "Oui"
+  },
+  "button.nee": {
+    "nl": "Nee",
+    "en": "No",
+    "de": "Nein",
+    "pt": "Não",
+    "fy": "Nee",
+    "nl-gronings": "Nee",
+    "nl-nedersaksisch": "Nee",
+    "fr": "Non"
+  },
+  "button.opslaan": {
+    "nl": "💾 Opslaan",
+    "en": "💾 Save",
+    "de": "💾 Speichern",
+    "pt": "💾 Salvar",
+    "fy": "💾 Opslaan",
+    "nl-gronings": "💾 Opsloen",
+    "nl-nedersaksisch": "💾 Opslaagen",
+    "fr": "💾 Enregistrer"
+  },
+  "button.reset": {
+    "nl": "🧯 Fabrieksinstellingen Herstellen",
+    "en": "🧯 Restore factory settings",
+    "de": "🧯 Werkseinstellungen wiederherstellen",
+    "pt": "🧯 Restaurar configurações de fábrica",
+    "fy": "🧯 Fabrieksynstellings weromsette",
+    "nl-gronings": "🧯 Fabrieksinstellings hersteld",
+    "nl-nedersaksisch": "🧯 Fabrieksinstellingen herstellen",
+    "fr": "🧯 Restaurer les paramètres d’usine"
+  },
+  "button.save": {
+    "nl": "📥 Instellingen Opslaan",
+    "en": "📥 Save settings",
+    "de": "📥 Einstellungen speichern",
+    "pt": "📥 Salvar configurações",
+    "fy": "📥 Ynstellings opslaan",
+    "nl-gronings": "📥 Instellings opsloen",
+    "nl-nedersaksisch": "📥 Instellingen opslaagen",
+    "fr": "📥 Enregistrer les paramètres"
+  },
+  "button.sluiten": {
+    "nl": "Sluiten",
+    "en": "Close",
+    "de": "Schließen",
+    "pt": "Fechar",
+    "fy": "Slute",
+    "nl-gronings": "Dichtdoen",
+    "nl-nedersaksisch": "Sluten",
+    "fr": "Fermer"
+  },
+  "button.terug": {
+    "nl": "Terug",
+    "en": "Back",
+    "de": "Zurück",
+    "pt": "Voltar",
+    "fy": "Werom",
+    "nl-gronings": "Terug",
+    "nl-nedersaksisch": "Trög",
+    "fr": "Retour"
+  },
+  "button.wissen": {
+    "nl": "🗑️ Wissen",
+    "en": "🗑️ Clear",
+    "de": "🗑️ Löschen",
+    "pt": "🗑️ Limpar",
+    "fy": "🗑️ Wiskje",
+    "nl-gronings": "🗑️ Wiesen",
+    "nl-nedersaksisch": "🗑️ Wissen",
+    "fr": "🗑️ Supprimer"
+  },
+  "dashboard.batteries": {
+    "nl": "🔋 Accu's",
+    "en": "🔋 Batteries",
+    "de": "🔋 Batterien",
+    "pt": "🔋 Baterias",
+    "fy": "🔋 Batterijen",
+    "nl-gronings": "🔋 Batterien",
+    "nl-nedersaksisch": "🔋 Accu’s",
+    "fr": "🔋 Batteries"
+  },
+  "dashboard.battery": {
+    "nl": "Accu",
+    "en": "Battery",
+    "de": "Akku",
+    "pt": "Bateria",
+    "fy": "Batterij",
+    "nl-gronings": "Batterij",
+    "nl-nedersaksisch": "Accu",
+    "fr": "Batterie"
+  },
+  "dashboard.channel": {
+    "nl": "Kanaal",
+    "en": "Channel",
+    "de": "Kanal",
+    "pt": "Canal",
+    "fy": "Kanaal",
+    "nl-gronings": "Kanaal",
+    "nl-nedersaksisch": "Kanaal",
+    "fr": "Canal"
+  },
+  "dashboard.charge_bar": {
+    "nl": "Laadbalk",
+    "en": "Progress bar",
+    "de": "Fortschrittsbalken",
+    "pt": "Barra de progresso",
+    "fy": "Ladenbalke",
+    "nl-gronings": "Laadbalk",
+    "nl-nedersaksisch": "Laadbalk",
+    "fr": "Barre de charge"
+  },
+  "dashboard.current": {
+    "nl": "⚡ Stroom (A)",
+    "en": "⚡ Current (A)",
+    "de": "⚡ Strom (A)",
+    "pt": "⚡ Corrente (A)",
+    "fy": "⚡ Stream (A)",
+    "nl-gronings": "⚡ Stroom (A)",
+    "nl-nedersaksisch": "⚡ Stroom (A)",
+    "fr": "⚡ Courant (A)"
+  },
+  "dashboard.humidity_aht": {
+    "nl": "Luchtvochtigheid AHT20 (%)",
+    "en": "AHT20 Humidity (%)",
+    "de": "AHT20‑Luftfeuchtigkeit (%)",
+    "pt": "Umidade AHT20 (%)",
+    "fy": "Loftvochtichheid AHT20 (%)",
+    "nl-gronings": "Luchtvochtigheid AHT20 (%)",
+    "nl-nedersaksisch": "Luchtvochtigheid AHT20 (%)",
+    "fr": "Humidité AHT20 (%)"
+  },
+  "dashboard.loading": {
+    "nl": "Laden...",
+    "en": "Loading...",
+    "de": "Lädt…",
+    "pt": "Carregando...",
+    "fy": "Laden…",
+    "nl-gronings": "Bezig met laden...",
+    "nl-nedersaksisch": "An ’t laden...",
+    "fr": "Chargement..."
+  },
+  "dashboard.no_battery": {
+    "nl": "Geen batterijgegevens beschikbaar",
+    "en": "No battery data available",
+    "de": "Keine Batteriedaten verfügbar",
+    "pt": "Nenhuma informação da bateria disponível",
+    "fy": "Gjin batterijgegevens beskikber",
+    "nl-gronings": "Naait batterijdata beskikbaar",
+    "nl-nedersaksisch": "Der bint gien batterijgegevens beschikbaar",
+    "fr": "Aucune donnée de batterie disponible"
+  },
+  "dashboard.no_sensor": {
+    "nl": "Sensor data niet beschikbaar",
+    "en": "Sensor data not available",
+    "de": "Sensordaten nicht verfügbar",
+    "pt": "Dados do sensor não disponíveis",
+    "fy": "Sensordata net beskikber",
+    "nl-gronings": "Sensor data neet bescchikbaar",
+    "nl-nedersaksisch": "Sensorgegevens nait beschikbaar",
+    "fr": "Données du capteur non disponibles"
+  },
+  "dashboard.power": {
+    "nl": "💡 Vermogen (W)",
+    "en": "💡 Power (W)",
+    "de": "💡 Leistung (W)",
+    "pt": "💡 Potência (W)",
+    "fy": "💡 Krêft (W)",
+    "nl-gronings": "💡 Vermogen (W)",
+    "nl-nedersaksisch": "💡 Vermogen (W)",
+    "fr": "💡 Puissance (W)"
+  },
+  "dashboard.pressure": {
+    "nl": "Druk (hPa)",
+    "en": "Pressure (hPa)",
+    "de": "Druck (hPa)",
+    "pt": "Pressão (hPa)",
+    "fy": "Druk (hPa)",
+    "nl-gronings": "Druk (hPa)",
+    "nl-nedersaksisch": "Druk (hPa)",
+    "fr": "Pression (hPa)"
+  },
+  "dashboard.raw_pressure": {
+    "nl": "Ruwe druk",
+    "en": "Raw pressure",
+    "de": "Rohdruck",
+    "pt": "Pressão bruta",
+    "fy": "Rauwe druk",
+    "nl-gronings": "Rauwe druk",
+    "nl-nedersaksisch": "Rauwe druk",
+    "fr": "Pression brute"
+  },
+  "dashboard.remaining_time": {
+    "nl": "Resterende tijd",
+    "en": "Remaining time",
+    "de": "Verbleibende Zeit",
+    "pt": "Tempo restante",
+    "fy": "Resterjende tiid",
+    "nl-gronings": "Resterende tied",
+    "nl-nedersaksisch": "Resterende tied",
+    "fr": "Temps restant"
+  },
+  "dashboard.sea_pressure": {
+    "nl": "Sealevel druk",
+    "en": "Sea-level pressure",
+    "de": "Meereshöhenluftdruck",
+    "pt": "Pressão ao nível do mar",
+    "fy": "Seenivo druk",
+    "nl-gronings": "Zielnivo druk",
+    "nl-nedersaksisch": "Zielnivo druk",
+    "fr": "Pression au niveau de la mer"
+  },
+  "dashboard.sensors": {
+    "nl": "🌡️ AHT20 & BMP280 Sensoren",
+    "en": "🌡️ AHT20 & BMP280 Sensors",
+    "de": "🌡️ AHT20‑ & BMP280‑Sensoren",
+    "pt": "🌡️ Sensores AHT20 & BMP280",
+    "fy": "🌡️ AHT20 & BMP280‑sensors",
+    "nl-gronings": "🌡️ AHT20 & BMP280 Sensoren",
+    "nl-nedersaksisch": "🌡️ AHT20 & BMP280 Sensors",
+    "fr": "🌡️ Capteurs AHT20 & BMP280"
+  },
+  "dashboard.soc": {
+    "nl": "SoC (%)",
+    "en": "SoC (%)",
+    "de": "SoC (%)",
+    "pt": "SoC (%)",
+    "fy": "SoC (%)",
+    "nl-gronings": "SoC (%)",
+    "nl-nedersaksisch": "SoC (%)",
+    "fr": "SoC (%)"
+  },
+  "dashboard.status": {
+    "nl": "Status",
+    "en": "Status",
+    "de": "Status",
+    "pt": "Status",
+    "fy": "Status",
+    "nl-gronings": "Status",
+    "nl-nedersaksisch": "Status",
+    "fr": "Statut"
+  },
+  "dashboard.temperature_aht": {
+    "nl": "Temperatuur AHT20 (°C)",
+    "en": "AHT20 Temperature (°C)",
+    "de": "AHT20‑Temperatur (°C)",
+    "pt": "Temperatura AHT20 (°C)",
+    "fy": "Temperatuer AHT20 (°C)",
+    "nl-gronings": "Temperatuur AHT20 (°C)",
+    "nl-nedersaksisch": "Temperatuur AHT20 (°C)",
+    "fr": "Température AHT20 (°C)"
+  },
+  "dashboard.temperature_bmp": {
+    "nl": "Temperatuur BMP280 (°C)",
+    "en": "BMP280 Temperature (°C)",
+    "de": "BMP280‑Temperatur (°C)",
+    "pt": "Temperatura BMP280 (°C)",
+    "fy": "Temperatuer BMP280 (°C)",
+    "nl-gronings": "Temperatuur BMP280 (°C)",
+    "nl-nedersaksisch": "Temperatuur BMP280 (°C)",
+    "fr": "Température BMP280 (°C)"
+  },
+  "dashboard.title": {
+    "nl": "Dashboard INA3221",
+    "en": "INA3221 Dashboard",
+    "de": "INA3221-Dashboard",
+    "pt": "Painel INA3221",
+    "fy": "Dashboard INA3221",
+    "nl-gronings": "Dashboard INA3221",
+    "nl-nedersaksisch": "Dashboard INA3221",
+    "fr": "Tableau de bord INA3221"
+  },
+  "dashboard.voltage": {
+    "nl": "🔌 Spanning (V)",
+    "en": "🔌 Voltage (V)",
+    "de": "🔌 Spannung (V)",
+    "pt": "🔌 Tensão (V)",
+    "fy": "🔌 Spanning (V)",
+    "nl-gronings": "🔌 Spanning (V)",
+    "nl-nedersaksisch": "🔌 Spanning (V)",
+    "fr": "🔌 Tension (V)"
+  },
+  "debuglog.title": {
+    "nl": "📄 Debug Log scherm",
+    "en": "📄 Debug Log screen",
+    "de": "📄 Debug-Protokollschirm",
+    "pt": "📄 Tela de log de depuração",
+    "fy": "📄 Debug‑logskerm",
+    "nl-gronings": "📄 Debug Log scherm",
+    "nl-nedersaksisch": "📄 Debug Log-scherm",
+    "fr": "📄 Écran du journal de débogage"
+  },
+  "forecast.cloudy": {
+    "nl": "Bewolkt of regenachtig weer mogelijk ?￯ﾸﾏ",
+    "en": "Cloudy or rainy weather possible ?￯ﾸﾏ",
+    "de": "Bewölkt oder Regen möglich ?￯ﾸﾏ",
+    "pt": "Tempo nublado ou chuvoso possível ?￯ﾸﾏ",
+    "fy": "Bewolkt of reinwaar mooglik ?￯ﾸﾏ",
+    "nl-gronings": "Bewolkt of nat weer komp deran ?￯ﾸﾏ",
+    "nl-nedersaksisch": "Bewolkt of nat weer komp deran ?￯ﾸﾏ",
+    "fr": "Nuages ou pluie possible ?￯ﾸﾏ"
+  },
+  "forecast.degrading": {
+    "nl": "Slechter weer op komst, mogelijk regen ☔",
+    "en": "Worse weather coming, possible rain ☔",
+    "de": "Schlechtes Wetter kommt, möglicherweise Regen ☔",
+    "pt": "Mau tempo a caminho, pode chover ☔",
+    "fy": "Min waar op komst, mooglik rein ☔",
+    "nl-gronings": "Slechter weer komp deran, mischien regen ☔",
+    "nl-nedersaksisch": "Slechter weer komp deran, mischien regen ☔",
+    "fr": "Mauvais temps à venir, possible pluie ☔"
+  },
+  "forecast.improving": {
+    "nl": "Verbetering van het weer verwacht ⛅",
+    "en": "Weather improvement expected ⛅",
+    "de": "Wetterbesserung erwartet ⛅",
+    "pt": "Melhoria do tempo esperada ⛅",
+    "fy": "Ferbettering fan it waar ferwachte ⛅",
+    "nl-gronings": "Beter weer op komst ⛅",
+    "nl-nedersaksisch": "Beter weer op komst ⛅",
+    "fr": "Amélioration du temps attendue ⛅"
+  },
+  "forecast.no_data": {
+    "nl": "Onvoldoende gegevens voor voorspelling ❔📉",
+    "en": "Not enough data for forecast ❔📉",
+    "de": "Nicht genügend Daten für Vorhersage ❔📉",
+    "pt": "Dados insuficientes para previsão ❔📉",
+    "fy": "Net genôch gegevens foar foarsizzing ❔📉",
+    "nl-gronings": "Gainoeg gegevens veur voorspelling ❔📉",
+    "nl-nedersaksisch": "Gainoeg gegevens veur voorspelling ❔📉",
+    "fr": "Données insuffisantes pour la prévision ❔📉"
+  },
+  "forecast.partly_clear": {
+    "nl": "Waarschijnlijk opklarend weer 🌤️",
+    "en": "Likely clearing weather 🌤️",
+    "de": "Wahrscheinlich Auflockerung 🌤️",
+    "pt": "Provável melhoria do tempo 🌤️",
+    "fy": "Wierskynlik opklearjend waar 🌤️",
+    "nl-gronings": "Waarschienlik helder weer 🌤️",
+    "nl-nedersaksisch": "Waarschienlik helder weer 🌤️",
+    "fr": "Éclaircies probables 🌤️"
+  },
+  "forecast.slight_degrading": {
+    "nl": "Lichte verslechtering, kans op regen 🌦️",
+    "en": "Slightly worsening, chance of rain 🌦️",
+    "de": "Leichte Verschlechterung, Regen möglich 🌦️",
+    "pt": "Pequena piora, chance de chuva 🌦️",
+    "fy": "Ljocht minder waar, kâns op rein 🌦️",
+    "nl-gronings": "Beetje minder weer, kans op regen 🌦️",
+    "nl-nedersaksisch": "Beetje minder weer, kans op regen 🌦️",
+    "fr": "Légerement instable, pluie possible 🌦️"
+  },
+  "forecast.stable": {
+    "nl": "Stabiel, aangenaam weer 🌞",
+    "en": "Stable, pleasant weather 🌞",
+    "de": "Stabiles, angenehmes Wetter 🌞",
+    "pt": "Tempo estável e agradável 🌞",
+    "fy": "Stadich en noflik waar 🌞",
+    "nl-gronings": "Steady en mooi weer 🌞",
+    "nl-nedersaksisch": "Steady en mooi weer 🌞",
+    "fr": "Temps stable et agréable 🌞"
+  },
+  "forecast.storm": {
+    "nl": "Storm of hevige regen mogelijk 🌩️⚠️",
+    "en": "Storm or heavy rain possible 🌩️⚠️",
+    "de": "Sturm oder starker Regen möglich 🌩️⚠️",
+    "pt": "Possível tempestade ou chuva forte 🌩️⚠️",
+    "fy": "Mooglik stoarm of hurde rein 🌩️⚠️",
+    "nl-gronings": "Storm of zwoare regen komp deran 🌩️⚠️",
+    "nl-nedersaksisch": "Storm of zwoare regen komp deran 🌩️⚠️",
+    "fr": "Orage ou forte pluie possible 🌩️⚠️"
+  },
+  "forecast.sun_dry": {
+    "nl": "Zonnig en droog weer op komst ☀️🌵",
+    "en": "Sunny and dry weather ahead ☀️🌵",
+    "de": "Sonniges und trockenes Wetter kommt ☀️🌵",
+    "pt": "Clima seco e ensolarado a caminho ☀️🌵",
+    "fy": "Sinne en drûch waar op komst☀️🌵",
+    "nl-gronings": "Zunne en drög weer komp deran ☀️🌵",
+    "nl-nedersaksisch": "Zunne en drög weer komp deran ☀️🌵",
+    "fr": "Temps sec et ensoleillé en approche ☀️🌵"
+  },
+  "forecast.uncertain": {
+    "nl": "Onzekere voorspelling, controleer later 🤔⏳",
+    "en": "Uncertain forecast, check later 🤔⏳",
+    "de": "Unsichere Vorhersage, später erneut prüfen 🤔⏳",
+    "pt": "Previsão incerta, verifique depois 🤔⏳",
+    "fy": "Net wis, letter nochris sjen 🤔⏳",
+    "nl-gronings": "Net zeker, kiek later nog n keer 🤔⏳",
+    "nl-nedersaksisch": "Net zeker, kiek later nog n keer 🤔⏳",
+    "fr": "Prévision incertaine, vérifiez plus tard 🤔⏳"
+  },
+  "instelligen.title": {
+    "nl": "⚙️ Algemene Instellingen",
+    "en": "⚙️ General settings",
+    "de": "⚙️ Allgemeine Einstellungen",
+    "pt": "⚙️ Configurações gerais",
+    "fy": "⚙️ Algemiene ynstellings",
+    "nl-gronings": "⚙️ Algemene instellings",
+    "nl-nedersaksisch": "⚙️ Algemene instellingen",
+    "fr": "⚙️ Paramètres généraux"
+  },
+  "instellingen.opgeslagen": {
+    "nl": "Instellingen opgeslagen",
+    "en": "Settings saved",
+    "de": "Einstellungen gespeichert",
+    "pt": "Configurações salvas",
+    "fy": "Ynstellings opslein",
+    "nl-gronings": "Instellings opsloen",
+    "nl-nedersaksisch": "Instellingen opslaagen",
+    "fr": "Paramètres enregistrés"
+  },
+  "instellingen.opslaanmislukt": {
+    "nl": "Kon instellingen niet opslaan",
+    "en": "Could not save settings",
+    "de": "Einstellungen konnten nicht gespeichert werden",
+    "pt": "Não foi possível salvar as configurações",
+    "fy": "Koe ynstellings net opslaan",
+    "nl-gronings": "Kon instellings neet opsloen",
+    "nl-nedersaksisch": "Kon de instellingen nait opslaagen",
+    "fr": "Impossible d'enregistrer les paramètres"
+  },
+  "instellingen.taal.label": {
+    "nl": "Taal",
+    "en": "Language",
+    "de": "Sprach",
+    "pt": "idioma",
+    "fy": "Taal",
+    "nl-gronings": "Toal",
+    "nl-nedersaksisch": "Taol",
+    "fr": "Langue"
+  },
+  "instellingen.taal.legend": {
+    "nl": "🌐 Taalinstelling",
+    "en": "🌐 Language setting",
+    "de": "🌐 Spracheinstellung",
+    "pt": "🌐 Configuração de idioma",
+    "fy": "🌐 Taalynstellings",
+    "nl-gronings": "🌐 Toalinstelling",
+    "nl-nedersaksisch": "🌐 Taolinstelling",
+    "fr": "🌐 Paramètre de langue"
+  },
+  "instellingen.title": {
+    "nl": "Instellingen",
+    "en": "Settings",
+    "de": "Einstellungen",
+    "pt": "Configurações",
+    "fy": "Ynstellings",
+    "nl-gronings": "Instellings",
+    "nl-nedersaksisch": "Instellings",
+    "fr": "Paramètres"
+  },
+  "kalibratie.title": {
+    "nl": "⚙️ Kalibratie Instellingen",
+    "en": "⚙️ Calibration Settings",
+    "de": "⚙️ Kalibrierungseinstellungen",
+    "pt": "⚙️ Configurações de calibração",
+    "fy": "⚙️ Kalibraasje‑ynstellings",
+    "nl-gronings": "⚙️ Kalibratie instellings",
+    "nl-nedersaksisch": "⚙️ Kalibratie-instellingen",
+    "fr": "⚙️ Paramètres d’étalonnage"
+  },
+  "label.aantalregels": {
+    "nl": "Aantalregels",
+    "en": "Number of lines",
+    "de": "Anzahl Zeilen",
+    "pt": "Número de linhas",
+    "fy": "Tal rigels",
+    "nl-gronings": "Aantalregels",
+    "nl-nedersaksisch": "Aantall riegels",
+    "fr": "Nombre de lignes"
+  },
+  "label.correctie_voorgesteld": {
+    "nl": "Voorstelde correctiewaarden:",
+    "en": "Suggested correction values:",
+    "de": "Vorgeschlagene Korrekturwerte:",
+    "pt": "Valores de correção sugeridos:",
+    "fy": "Foarstellen korrigearwearden:",
+    "nl-gronings": "Voorgestelde correctiewaarden:",
+    "nl-nedersaksisch": "Voorgestelde correctiewaardes:",
+    "fr": "Valeurs correctives proposées :"
+  },
+  "label.kies_kanaal": {
+    "nl": "Kies kanaal:",
+    "en": "Select channel:",
+    "de": "Kanal auswählen:",
+    "pt": "Escolher canal:",
+    "fy": "Kies kanaal:",
+    "nl-gronings": "Kies kanaal:",
+    "nl-nedersaksisch": "Kies kanaal:",
+    "fr": "Choisir un canal :"
+  },
+  "label.log": {
+    "nl": "Log",
+    "en": "Log",
+    "de": "Log",
+    "pt": "Registro",
+    "fy": "Log",
+    "nl-gronings": "Log",
+    "nl-nedersaksisch": "Logboek",
+    "fr": "Journal"
+  },
+  "label.multimeter_ampere": {
+    "nl": "Multimeter Stroom (A):",
+    "en": "Multimeter Current (A):",
+    "de": "Multimeter Strom (A):",
+    "pt": "Multímetro Corrente (A):",
+    "fy": "Multimeter Stream (A):",
+    "nl-gronings": "Multimeter Stroom (A):",
+    "nl-nedersaksisch": "Multimeter Stroom (A):",
+    "fr": "Multimètre Courant (A) :"
+  },
+  "label.multimeter_volt": {
+    "nl": "Multimeter Spanning (V):",
+    "en": "Multimeter Voltage (V):",
+    "de": "Multimeter Spannung (V):",
+    "pt": "Multímetro Tensão (V):",
+    "fy": "Multimeter Spanning (V):",
+    "nl-gronings": "Multimeter Spanning (V):",
+    "nl-nedersaksisch": "Multimeter Spanning (V):",
+    "fr": "Multimètre Tension (V) :"
+  },
+  "label.spanning_correctie": {
+    "nl": "Spanning Correctie:",
+    "en": "Voltage correction:",
+    "de": "Spannungskorrektur:",
+    "pt": "Correção de tensão:",
+    "fy": "Spanning korrigearring:",
+    "nl-gronings": "Spanning correctie:",
+    "nl-nedersaksisch": "Spanning Correctie:",
+    "fr": "Correction de tension :"
+  },
+  "label.spanning_ina": {
+    "nl": "Gemeten door INA3221:",
+    "en": "Measured by INA3221:",
+    "de": "Gemessen von INA3221:",
+    "pt": "Medido pelo INA3221:",
+    "fy": "Meiing troch INA3221:",
+    "nl-gronings": "Gemeten deur INA3221:",
+    "nl-nedersaksisch": "Gemeten deur INA3221:",
+    "fr": "Mesuré par INA3221 :"
+  },
+  "label.stroom_correctie": {
+    "nl": "Stroom Correctie:",
+    "en": "Current correction:",
+    "de": "Stromkorrektur:",
+    "pt": "Correção de corrente:",
+    "fy": "Stream korrigearring:",
+    "nl-gronings": "Stroom correctie:",
+    "nl-nedersaksisch": "Stroom Correctie:",
+    "fr": "Correction de courant :"
+  },
+  "meters.title": {
+    "nl": "Toon kanalen",
+    "en": "Show channels",
+    "de": "Kanäle anzeigen",
+    "pt": "Mostrar canais",
+    "fy": "Toon kanalen",
+    "nl-gronings": "Toon kanalen",
+    "nl-nedersaksisch": "Toon kanalen",
+    "fr": "Afficher les canaux"
+  },
+  "modal.alert.ok": {
+    "nl": "Oké",
+    "en": "OK",
+    "de": "OK",
+    "pt": "OK",
+    "fy": "Oké",
+    "nl-gronings": "Oké",
+    "nl-nedersaksisch": "Oké",
+    "fr": "D’accord"
+  },
+  "modal.reset.title": {
+    "nl": "⚠️ Weet je zeker dat je de fabrieksinstellingen wilt herstellen?",
+    "en": "⚠️ Are you sure you want to restore factory settings?",
+    "de": "⚠️ Sind Sie sicher, dass Sie die Werkseinstellungen wiederherstellen möchten?",
+    "pt": "⚠️ Tem certeza de que deseja restaurar as configurações de fábrica?",
+    "fy": "⚠️ Binne jo wis dat jo de fabriek­synstellings weromsette wolle?",
+    "nl-gronings": "⚠️ Bisto seker dat je de fabrieksinstellings herstellen wult?",
+    "nl-nedersaksisch": "⚠️ Binst der zeker dat ie de fabrieksinstellingen herstellen wilt?",
+    "fr": "⚠️ Êtes-vous sûr de vouloir restaurer les paramètres d’usine ?"
+  },
+  "nav.calibratie": {
+    "nl": "⚙️ Kalibratie",
+    "en": "⚙️ Calibration",
+    "de": "⚙️ Kalibrierung",
+    "pt": "⚙️ Calibração",
+    "fy": "⚙️ Kalibraasje",
+    "nl-gronings": "⚙️ Kalibratie",
+    "nl-nedersaksisch": "⚙️ Kalibratie",
+    "fr": "⚙️ Étalonnage"
+  },
+  "nav.dashboard": {
+    "nl": "📈 Overzicht",
+    "en": "📈 Overview",
+    "de": "📈 Übersicht",
+    "pt": "📈 Visão geral",
+    "fy": "📈 Oersjoch",
+    "nl-gronings": "📈 Oversicht",
+    "nl-nedersaksisch": "📈 Oetzicht",
+    "fr": "📈 Aperçu"
+  },
+  "nav.debuglog": {
+    "nl": "📄 Debug",
+    "en": "📄 Debug",
+    "de": "📄 Debug",
+    "pt": "📄 Depuração",
+    "fy": "📄 Debug",
+    "nl-gronings": "📄 Debug",
+    "nl-nedersaksisch": "📄 Debug",
+    "fr": "📄 Débogage"
+  },
+  "nav.home": {
+    "nl": "🏠 Start",
+    "en": "🏠 Home",
+    "de": "🏠 Startseite",
+    "pt": "🏠 Início",
+    "fy": "🏠 Start",
+    "nl-gronings": "🏠 Start",
+    "nl-nedersaksisch": "🏠 Start",
+    "fr": "🏠 Accueil"
+  },
+  "nav.instellingen": {
+    "nl": "📄 Instellingen",
+    "en": "📄 Settings",
+    "de": "📄 Einstellungen",
+    "pt": "📄 Configurações",
+    "fy": "📄 Ynstellings",
+    "nl-gronings": "📄 Instellings",
+    "nl-nedersaksisch": "📄 Instellingen",
+    "fr": "📄 Paramètres"
+  },
+  "nav.meters": {
+    "nl": "⏱️ Meters",
+    "en": "⏱️ Meters",
+    "de": "⏱️ Messgeräte",
+    "pt": "⏱️ Medidores",
+    "fy": "⏱️ Meters",
+    "nl-gronings": "⏱️ Meters",
+    "nl-nedersaksisch": "⏱️ Meters",
+    "fr": "⏱️ Compteurs"
+  },
+  "nav.ota": {
+    "nl": "♻️ OTA",
+    "en": "♻️ OTA",
+    "de": "♻️ OTA",
+    "pt": "♻️ OTA",
+    "fy": "♻️ OTA",
+    "nl-gronings": "♻️ OTA",
+    "nl-nedersaksisch": "♻️ OTA",
+    "fr": "♻️ OTA"
+  },
+  "nav.reboot": {
+    "nl": "🔁 Herstart",
+    "en": "🔁 Restart",
+    "de": "🔁 Neustart",
+    "pt": "🔁 Reiniciar",
+    "fy": "🔁 Herstart",
+    "nl-gronings": "🔁 Herstart",
+    "nl-nedersaksisch": "🔁 Herstart",
+    "fr": "🔁 Redémarrer"
+  },
+  "nav.sd": {
+    "nl": "💾 SD-kaart",
+    "en": "💾 SD card",
+    "de": "💾 SD-Karte",
+    "pt": "💾 Cartão SD",
+    "fy": "💾 SD‑kaart",
+    "nl-gronings": "💾 SD-kaart",
+    "nl-nedersaksisch": "💾 SD-kaart",
+    "fr": "💾 Carte SD"
+  },
+  "nav.weersvoorspelling": {
+    "nl": "🌤️ Weersvoorspelling",
+    "en": "🌤️ Weather forecast",
+    "de": "🌤️ Wettervorhersage",
+    "pt": "🌤️ Previsão do tempo",
+    "fy": "🌤️ Waarberjocht",
+    "nl-gronings": "🌤️ Weersvoorspelling",
+    "nl-nedersaksisch": "🌤️ Weersvoorspelling",
+    "fr": "🌤️ Prévisions météo"
+  },
+  "ota.upload.button": {
+    "nl": "Upload",
+    "en": "Upload",
+    "de": "Upload",
+    "pt": "Enviar",
+    "fy": "Upload",
+    "nl-gronings": "Uploaden",
+    "nl-nedersaksisch": "Oplaad'n",
+    "fr": "Téléverser"
+  },
+  "ota.upload.choose": {
+    "nl": "Bestand kiezen",
+    "en": "Choose file",
+    "de": "Datei auswählen",
+    "pt": "Escolher arquivo",
+    "fy": "Bestân kieze",
+    "nl-gronings": "Bestand kieken",
+    "nl-nedersaksisch": "Kies’n bestand",
+    "fr": "Choisir un fichier"
+  },
+  "ota.upload.error": {
+    "nl": "❌ Fout bij upload.",
+    "en": "❌ Upload failed.",
+    "de": "❌ Upload fehlgeschlagen.",
+    "pt": "❌ Falha no upload.",
+    "fy": "❌ Upload miskien mislukt.",
+    "nl-gronings": "❌ Fout bie upload.",
+    "nl-nedersaksisch": "❌ Fout bij opladen.",
+    "fr": "❌ Erreur lors du téléversement."
+  },
+  "ota.upload.error.status": {
+    "nl": "❌ Fout bij upload: {status}",
+    "en": "❌ Upload error: {status}",
+    "de": "❌ Upload-Fehler: {status}",
+    "pt": "❌ Erro no upload: {status}",
+    "fy": "❌ Uploadfout: {status}",
+    "nl-gronings": "❌ Fout bie upload: {status}",
+    "nl-nedersaksisch": "❌ Fout bij opladen: {status}",
+    "fr": "❌ Erreur lors du téléversement : {status}"
+  },
+  "ota.upload.nofile": {
+    "nl": "Geen bestand gekozen",
+    "en": "No file chosen",
+    "de": "Keine Datei ausgewählt",
+    "pt": "Nenhum arquivo selecionado",
+    "fy": "Gjin bestân keazen",
+    "nl-gronings": "Gien bestand kiekt",
+    "nl-nedersaksisch": "Gien bestand kiest",
+    "fr": "Aucun fichier choisi"
+  },
+  "ota.upload.progress": {
+    "nl": "Uploaden: {percent}%",
+    "en": "Uploading: {percent}%",
+    "de": "Hochladen: {percent}%",
+    "pt": "Enviando: {percent}%",
+    "fy": "Uploaden: {percent}%",
+    "nl-gronings": "Uploaden: {percent}%",
+    "nl-nedersaksisch": "Oplaad’n: {percent}%",
+    "fr": "Téléversement : {percent}%"
+  },
+  "ota.upload.success.text": {
+    "nl": "Het apparaat wordt nu herstart...",
+    "en": "The device is now restarting...",
+    "de": "Das Gerät wird jetzt neu gestartet...",
+    "pt": "O dispositivo está reiniciando...",
+    "fy": "It apparaat wurdt no opnij starte…",
+    "nl-gronings": "’t Apparaot wordt no herstart...",
+    "nl-nedersaksisch": "’t Apperaat wordt nou herstart...",
+    "fr": "L’appareil est en cours de redémarrage..."
+  },
+  "ota.upload.success.title": {
+    "nl": "✅ Upload gelukt!",
+    "en": "✅ Upload successful!",
+    "de": "✅ Upload erfolgreich!",
+    "pt": "✅ Upload bem‑sucedido!",
+    "fy": "✅ Upload slagge!",
+    "nl-gronings": "✅ Upload gelukt!",
+    "nl-nedersaksisch": "✅ Upload geluk!",
+    "fr": "✅ Téléversement réussi !"
+  },
+  "ota.upload.title": {
+    "nl": "⬆️ Upload nieuwe firmware",
+    "en": "⬆️ Upload new firmware",
+    "de": "⬆️ Neue Firmware hochladen",
+    "pt": "⬆️ Enviar novo firmware",
+    "fy": "⬆️ Upload nije firmware",
+    "nl-gronings": "⬆️ Upload nieje firmware",
+    "nl-nedersaksisch": "⬆️ Oplaad'n van nieje firmware",
+    "fr": "⬆️ Téléverser un nouveau firmware"
+  },
+  "ota.upload.wait": {
+    "nl": "Wachten tot verbinding is hersteld...",
+    "en": "Waiting for connection to be restored...",
+    "de": "Warten auf das Wiederverbinden…",
+    "pt": "Aguardando restabelecimento da conexão...",
+    "fy": "Wachtsje oant ferbining wersteld is…",
+    "nl-gronings": "Wachten tot de verbining weer trök is...",
+    "nl-nedersaksisch": "Wacht totdat de verbinding weer steet...",
+    "fr": "En attente de la reconnexion..."
+  },
+  "reboot.bevestiging.pageTitle": {
+    "nl": "Herstart bevestiging",
+    "en": "Restart confirmation",
+    "de": "Neustartbestätigung",
+    "pt": "Confirmação de reinício",
+    "fy": "Herstartbefêstiging",
+    "nl-gronings": "Herstart bevestigen",
+    "nl-nedersaksisch": "Herstart bevestigen",
+    "fr": "Confirmation du redémarrage"
+  },
+  "reboot.bevestiging.text": {
+    "nl": "Weet je zeker dat je de ALSS WebServer wilt herstarten? Alle actieve verbindingen worden verbroken.",
+    "en": "Are you sure you want to restart the ALSS WebServer? All active connections will be disconnected.",
+    "de": "Sind Sie sicher, dass Sie den ALSS-WebServer neu starten möchten? Alle aktiven Verbindungen werden getrennt.",
+    "pt": "Tem certeza de que deseja reiniciar o ALSS WebServer? Todas as conexões ativas serão desconectadas.",
+    "fy": "Binne jo wis dat jo de ALSS WebServer herstartje wolle? Alle aktive ferbiningen wurde ferbûn.",
+    "nl-gronings": "Bisto seker dat je de ALSS WebServer herstarten wult? Alle aktieve verbinings wörden bräken.",
+    "nl-nedersaksisch": "Binst der zeker dat ie de ALSS WebServer herstarten wilt? Alle actieve verbindingen wordt verbroken.",
+    "fr": "Êtes-vous sûr de vouloir redémarrer le serveur Web ALSS ? Toutes les connexions actives seront interrompues."
+  },
+  "reboot.bevestiging.title": {
+    "nl": "ALLS WebServer herstarten?",
+    "en": "Restart ALLS WebServer?",
+    "de": "ALLS-WebServer neu starten?",
+    "pt": "Reiniciar ALLS WebServer?",
+    "fy": "ALLS WebServer herstartje?",
+    "nl-gronings": "ALLS WebServer herstarten?",
+    "nl-nedersaksisch": "ALSS WebServer herstarten?",
+    "fr": "Redémarrer le serveur Web ALSS ?"
+  },
+  "reboot.herstart.message1": {
+    "nl": "ALSS Webserver wordt nu herstart.",
+    "en": "ALSS Webserver is restarting now.",
+    "de": "Der ALSS-Webserver wird jetzt neu gestartet.",
+    "pt": "ALSS Webserver está reiniciando agora.",
+    "fy": "ALSS Webserver wurdt no opnij starte.",
+    "nl-gronings": "ALSS Webserver wordt no herstart.",
+    "nl-nedersaksisch": "ALSS Webserver wordt nou herstart.",
+    "fr": "Le serveur Web ALSS redémarre maintenant."
+  },
+  "reboot.herstart.message2": {
+    "nl": "Even geduld... zodra de ALSS WebServer terug is, ga je automatisch naar de startpagina.",
+    "en": "Please wait… once the ALSS WebServer is back, you’ll be automatically taken to the start page.",
+    "de": "Bitte warten… sobald der ALSS-WebServer zurück ist, werden Sie automatisch zur Startseite geleitet.",
+    "pt": "Aguarde… assim que o ALSS WebServer voltar, você será direcionado automaticamente à página inicial.",
+    "fy": "Even geduld… soksate de ALSS WebServer werom is, wurdst automatysk nei de startside brocht.",
+    "nl-gronings": "Even geduld... as de ALSS WebServer weer trök is, gei je automatich noar de startpagina.",
+    "nl-nedersaksisch": "Even geduld... as de ALSS WebServer weer online is, ga je automaotisch naor de startpagina.",
+    "fr": "Veuillez patienter... Une fois le serveur Web ALSS de retour, vous serez automatiquement redirigé vers la page d'accueil."
+  },
+  "reboot.herstart.title": {
+    "nl": "Herstart wordt uitgevoerd..",
+    "en": "Restart in progress…",
+    "de": "Neustart läuft…",
+    "pt": "Reiniciando…",
+    "fy": "Herstart wurdt útfierd…",
+    "nl-gronings": "Herstart bezig...",
+    "nl-nedersaksisch": "Herstart wordt oetvoerd...",
+    "fr": "Redémarrage en cours..."
+  },
+  "reset.success": {
+    "nl": "Fabrieksinstellingen hersteld",
+    "en": "Factory settings restored",
+    "de": "Werkseinstellungen wiederhergestellt",
+    "pt": "Configurações de fábrica restauradas",
+    "fy": "Fabrieksynstellings weromset",
+    "nl-gronings": "Fabrieksinstellings herstellen",
+    "nl-nedersaksisch": "Fabrieksinstellingen weer insteld",
+    "fr": "Paramètres d’usine restaurés"
+  },
+  "root.activeboard": {
+    "nl": "Actief Board",
+    "en": "Active board",
+    "de": "Aktive Platine",
+    "pt": "Placa ativa",
+    "fy": "Aktive boerd",
+    "nl-gronings": "Aktief Board",
+    "nl-nedersaksisch": "Actief Boord",
+    "fr": "Carte active"
+  },
+  "root.connect_ap": {
+    "nl": "Verbind met Access Point (AP)",
+    "en": "Connect to Access Point (AP)",
+    "de": "Mit Access Point (AP) verbinden",
+    "pt": "Conectar ao Ponto de Acesso (AP)",
+    "fy": "Ferbine mei Access Point (AP)",
+    "nl-gronings": "Verbind met Access Point (AP)",
+    "nl-nedersaksisch": "Verbin'n met Access Point (AP)",
+    "fr": "Se connecter à un point d’accès (AP)"
+  },
+  "root.connect_dashboard": {
+    "nl": "Verbinden & Dashboard",
+    "en": "Connection & Dashboard",
+    "de": "Verbindung & Dashboard",
+    "pt": "Conexão & Painel",
+    "fy": "Ferbining & Dashboard",
+    "nl-gronings": "Verbinnen & Dashboard",
+    "nl-nedersaksisch": "Verbinden & Dashboard",
+    "fr": "Connexion & Tableau de bord"
+  },
+  "root.connect_wifi": {
+    "nl": "Verbind via je eigen netwerk",
+    "en": "Connect via your own network",
+    "de": "Über Ihr eigenes Netzwerk verbinden",
+    "pt": "Conectar pela sua própria rede",
+    "fy": "Ferbine fia jo eigen netwurk",
+    "nl-gronings": "Verbind deur dien eigen netwark",
+    "nl-nedersaksisch": "Verbin'n via dien eigen netwark",
+    "fr": "Se connecter via votre propre réseau"
+  },
+  "root.open": {
+    "nl": "Open",
+    "en": "Open",
+    "de": "Öffnen",
+    "pt": "Abrir",
+    "fy": "Iepenje",
+    "nl-gronings": "Open",
+    "nl-nedersaksisch": "Open",
+    "fr": "Ouvrir"
+  },
+  "root.open_dashboard_wifi": {
+    "nl": "Open Dashboard via Wi-Fi",
+    "en": "Open Dashboard via Wi‑Fi",
+    "de": "Dashboard über Wi‑Fi öffnen",
+    "pt": "Abrir Painel via Wi‑Fi",
+    "fy": "Iepen Dashboard fia Wi‑Fi",
+    "nl-gronings": "Open Dashboard deur Wi-Fi",
+    "nl-nedersaksisch": "Open Dashboard via Wi-Fi",
+    "fr": "Ouvrir le tableau de bord via Wi-Fi"
+  },
+  "root.page_not_found": {
+    "nl": "De pagina bestaat niet:",
+    "en": "Page does not exist:",
+    "de": "Seite existiert nicht:",
+    "pt": "A página não existe:",
+    "fy": "De side besteiet net:",
+    "nl-gronings": "De pagina bestiet neet:",
+    "nl-nedersaksisch": "Disse pagina bestaait nait:",
+    "fr": "La page n'existe pas :"
+  },
+  "root.page_not_found_title": {
+    "nl": "Pagina niet gevonden",
+    "en": "Page not found",
+    "de": "Seite nicht gefunden",
+    "pt": "Página não encontrada",
+    "fy": "Side net fûn",
+    "nl-gronings": "Pagina neet fon’n",
+    "nl-nedersaksisch": "Pagina nait vonden",
+    "fr": "Page non trouvée"
+  },
+  "root.password": {
+    "nl": "Wachtwoord",
+    "en": "Password",
+    "de": "Passwort",
+    "pt": "Senha",
+    "fy": "Wachtwurd",
+    "nl-gronings": "Wachtwurd",
+    "nl-nedersaksisch": "Wachtwoord",
+    "fr": "Mot de passe"
+  },
+  "root.redirecting_home": {
+    "nl": "Je wordt automatisch doorgestuurd naar de hoofdpagina in",
+    "en": "You will be automatically redirected to the main page in",
+    "de": "Sie werden automatisch nach",
+    "pt": "Você será redirecionado automaticamente para a página principal em",
+    "fy": "Jo wurde automatysk trochstjoerd nei de haadside yn",
+    "nl-gronings": "Je wordt automatich deurstuurd noar de hoofdpagina binnen",
+    "nl-nedersaksisch": "Do word automaotisch deurstuurd naor de hoofdpagina over",
+    "fr": "Vous serez automatiquement redirigé vers la page d'accueil dans"
+  },
+  "root.seconds": {
+    "nl": "seconden",
+    "en": "seconds",
+    "de": "Sekunden zur Hauptseite weitergeleitet",
+    "pt": "segundos",
+    "fy": "sekonden",
+    "nl-gronings": "seconden",
+    "nl-nedersaksisch": "seconden",
+    "fr": "secondes"
+  },
+  "root.ssid": {
+    "nl": "SSID",
+    "en": "SSID",
+    "de": "SSID",
+    "pt": "SSID",
+    "fy": "SSID",
+    "nl-gronings": "SSID",
+    "nl-nedersaksisch": "SSID",
+    "fr": "SSID"
+  },
+  "root.systeminfo": {
+    "nl": "Systeeminformatie",
+    "en": "System information",
+    "de": "Systeminformationen",
+    "pt": "Informações do sistema",
+    "fy": "Systemynformaasje",
+    "nl-gronings": "Systeeminfo",
+    "nl-nedersaksisch": "Systeeminfo",
+    "fr": "Informations système"
+  },
+  "root.title": {
+    "nl": "Welkom op de ALSS Webserver",
+    "en": "Welcome to the ALSS Webserver",
+    "de": "Willkommen beim ALSS-Webserver",
+    "pt": "Bem-vindo ao ALSS Webserver",
+    "fy": "Wolkom by de ALSS Webserver",
+    "nl-gronings": "Wolkom op de ALSS Webserver",
+    "nl-nedersaksisch": "Weest welkom op de ALSS Webserver",
+    "fr": "Bienvenue sur le serveur Web ALSS"
+  },
+  "sdkaart.inhoudvan": {
+    "nl": "Inhoud van",
+    "en": "Contents of",
+    "de": "Inhalt von",
+    "pt": "Conteúdo de",
+    "fy": "Ynhâld fan",
+    "nl-gronings": "Inhoud van",
+    "nl-nedersaksisch": "Inhold van",
+    "fr": "Contenu de"
+  },
+  "sdkaart.kanmapnietopenen": {
+    "nl": "Kan map niet openen",
+    "en": "Cannot open folder",
+    "de": "Ordner kann nicht geöffnet werden",
+    "pt": "Não é possível abrir pasta",
+    "fy": "Folder kin net iepenje",
+    "nl-gronings": "Kan map neet openen",
+    "nl-nedersaksisch": "Kon de map nait openen",
+    "fr": "Impossible d’ouvrir le dossier"
+  },
+  "sdkaart.maakmapaan": {
+    "nl": "Maak map aan",
+    "en": "Create folder",
+    "de": "Ordner erstellen",
+    "pt": "Criar pasta",
+    "fy": "Map oanmeitsje",
+    "nl-gronings": "Maak map an",
+    "nl-nedersaksisch": "Maak’n map an",
+    "fr": "Créer un dossier"
+  },
+  "sdkaart.mapnietgespecificeerd": {
+    "nl": "Map niet gespecificeerd voor verwijderen",
+    "en": "Folder not specified for deletion",
+    "de": "Ordner zum Löschen nicht angegeben",
+    "pt": "Pasta não especificada para exclusão",
+    "fy": "Mappa net spesifisearre foar wiskjen",
+    "nl-gronings": "Map neet opgeven veur wiesen",
+    "nl-nedersaksisch": "Map nait opgegeven veur verwieder’n",
+    "fr": "Dossier non spécifié pour la suppression"
+  },
+  "sdkaart.mapnietleeg": {
+    "nl": "Map is niet leeg",
+    "en": "Folder is not empty",
+    "de": "Ordner ist nicht leer",
+    "pt": "A pasta não está vazia",
+    "fy": "Folder is net leech",
+    "nl-gronings": "Map is neet leeg",
+    "nl-nedersaksisch": "Map is nait leeg",
+    "fr": "Le dossier n’est pas vide"
+  },
+  "sdkaart.upload": {
+    "nl": "Upload",
+    "en": "Upload",
+    "de": "Hochladen",
+    "pt": "Enviar",
+    "fy": "Upload",
+    "nl-gronings": "Uploaden",
+    "nl-nedersaksisch": "Oplaad’n",
+    "fr": "Téléverser"
+  },
+  "sdkaart.upload.button": {
+    "nl": "Sluiten",
+    "en": "Close",
+    "de": "Schließen",
+    "pt": "Fechar",
+    "fy": "Slute",
+    "nl-gronings": "Dichtdoen",
+    "nl-nedersaksisch": "Sluten",
+    "fr": "Fermer"
+  },
+  "sdkaart.upload.fout": {
+    "nl": "Fout bij upload:",
+    "en": "Upload error:",
+    "de": "Fehler beim Upload:",
+    "pt": "Erro no upload:",
+    "fy": "Fout by upload:",
+    "nl-gronings": "Fout bie upload:",
+    "nl-nedersaksisch": "Fout bij opladen:",
+    "fr": "Erreur lors du téléversement :"
+  },
+  "sdkaart.upload.label": {
+    "nl": "Upload",
+    "en": "Uploading",
+    "de": "Hochladen",
+    "pt": "Enviando",
+    "fy": "Upload",
+    "nl-gronings": "Uploaden",
+    "nl-nedersaksisch": "Oplaad'n",
+    "fr": "Téléverser"
+  },
+  "sdkaart.upload.status": {
+    "nl": "Upload: {percent}%",
+    "en": "Upload: {percent}%",
+    "de": "Upload: {percent}%",
+    "pt": "Upload: {percent}%",
+    "fy": "Upload: {percent}%",
+    "nl-gronings": "Upload: {percent}%",
+    "nl-nedersaksisch": "Oplaad'n: {percent}%",
+    "fr": "Téléversement : {percent}%"
+  },
+  "sdkaart.upload.voltooid": {
+    "nl": "Upload voltooid",
+    "en": "Upload complete",
+    "de": "Upload abgeschlossen",
+    "pt": "Upload concluído",
+    "fy": "Upload klear",
+    "nl-gronings": "Upload klaar",
+    "nl-nedersaksisch": "Oplaad'n klaar",
+    "fr": "Téléversement terminé"
+  },
+  "sdkaart.uploadennaar": {
+    "nl": "Bestand uploaden naar",
+    "en": "Upload file to",
+    "de": "Datei hochladen nach",
+    "pt": "Enviar arquivo para",
+    "fy": "Bestân uploaden nei",
+    "nl-gronings": "Bestand uploaden noar",
+    "nl-nedersaksisch": "Bestand opladen naor",
+    "fr": "Téléverser un fichier vers"
+  },
+  "sdkaart.verwijderbevestiging": {
+    "nl": "Weet je zeker dat je dit bestand wilt verwijderen?",
+    "en": "Are you sure you want to delete this file?",
+    "de": "Sind Sie sicher, dass Sie diese Datei löschen möchten?",
+    "pt": "Tem certeza de que deseja excluir este arquivo?",
+    "fy": "Binne jo wis dat jo dit bestân wiskje wolle?",
+    "nl-gronings": "Bisto seker dat je dit bestand wiesen wult?",
+    "nl-nedersaksisch": "Binst der zeker dat ie dit bestand verwiedern wilt?",
+    "fr": "Êtes-vous sûr de vouloir supprimer ce fichier ?"
+  },
+  "sdkaart.verwijderen.fout": {
+    "nl": "Fout bij verwijderen:",
+    "en": "Error deleting:",
+    "de": "Fehler beim Löschen:",
+    "pt": "Erro ao excluir:",
+    "fy": "Fout by wiskjen:",
+    "nl-gronings": "Fout bie wiesen:",
+    "nl-nedersaksisch": "Fout bij verwieder’n:",
+    "fr": "Erreur lors de la suppression :"
+  },
+  "sdkaart.verwijderen.mislukt": {
+    "nl": "Verwijderen mislukt:",
+    "en": "Deletion failed:",
+    "de": "Löschen fehlgeschlagen:",
+    "pt": "Falha na exclusão:",
+    "fy": "Wiskjen mislearre:",
+    "nl-gronings": "Wiesen misluk:",
+    "nl-nedersaksisch": "Verwieder’n misluk:",
+    "fr": "Échec de la suppression :"
+  },
+  "section.rekenhulp": {
+    "nl": "🔧 Rekenhulp",
+    "en": "🔧 Calculator",
+    "de": "🔧 Rechner",
+    "pt": "🔧 Calculadora",
+    "fy": "🔧 Rekenhulp",
+    "nl-gronings": "🔧 Rekenhulp",
+    "nl-nedersaksisch": "🔧 Rekenhulp",
+    "fr": "🔧 Assistant de calcul"
+  },
+  "taal.duits": {
+    "nl": "Duits",
+    "en": "German",
+    "de": "Deutsch",
+    "pt": "Alemão",
+    "fy": "Dútsk",
+    "nl-gronings": "Duits",
+    "nl-nedersaksisch": "Duits",
+    "fr": "Allemand"
+  },
+  "taal.engels": {
+    "nl": "English",
+    "en": "English",
+    "de": "Englisch",
+    "pt": "Inglês",
+    "fy": "Ingelsk",
+    "nl-gronings": "Engels",
+    "nl-nedersaksisch": "Engels",
+    "fr": "Anglais"
+  },
+  "taal.frans": {
+    "nl": "Frans",
+    "en": "Frans",
+    "de": "Frans",
+    "pt": "Frans",
+    "fy": "Frans",
+    "nl-gronings": "Frans",
+    "nl-nedersaksisch": "Frans",
+    "fr": "Français"
+  },
+  "taal.fries": {
+    "nl": "Fries",
+    "en": "Frisian",
+    "de": "Friesisch",
+    "pt": "Frísio",
+    "fy": "Frysk",
+    "nl-gronings": "Frysk",
+    "nl-nedersaksisch": "Frysk",
+    "fr": "Frison"
+  },
+  "taal.gronings": {
+    "nl": "Gronings",
+    "en": "Gronings",
+    "de": "Gronings",
+    "pt": "Gronings",
+    "fy": "Gronings",
+    "nl-gronings": "Grunnegs",
+    "nl-nedersaksisch": "Grunnegs",
+    "fr": "Groningois"
+  },
+  "taal.nederlands": {
+    "nl": "Nederlands",
+    "en": "Dutch",
+    "de": "Niederländisch",
+    "pt": "Holandês",
+    "fy": "Nederlânsk",
+    "nl-gronings": "Nedersaksiesch",
+    "nl-nedersaksisch": "Nedersaksiesch",
+    "fr": "Néerlandais"
+  },
+  "taal.Nedersaksisch": {
+    "nl": "Nedersaksisch",
+    "en": "Nedersaksisch",
+    "de": "Nedersaksisch",
+    "pt": "Nedersaksisch",
+    "fy": "Nedersaksisch",
+    "nl-gronings": "Nedersaksisch",
+    "nl-nedersaksisch": "Nedersaksisch",
+    "fr": "Bas-saxon"
+  },
+  "taal.Portugees": {
+    "nl": "Portugees",
+    "en": "Portuguese",
+    "de": "Portugiesisch",
+    "pt": "Português",
+    "fy": "Portugeesk",
+    "nl-gronings": "Portugees",
+    "nl-nedersaksisch": "Portugees",
+    "fr": "Portugais"
+  },
+  "weersvoorspelling.loading": {
+    "nl": "Voorspelling wordt geladen…",
+    "en": "Forecast is loading…",
+    "de": "Vorhersage wird geladen…",
+    "pt": "Previsão a carregar…",
+    "fy": "Foarsizzing wurdt laden…",
+    "nl-gronings": "Voorspelling wordt laand…",
+    "nl-nedersaksisch": "Voorspelling wordt laand…",
+    "fr": "Prévision en cours…"
+  },
+  "weersvoorspelling.measurements_label": {
+    "nl": "Metingen voor voorspelling:",
+    "en": "Measurements for forecast:",
+    "de": "Messungen für Vorhersage:",
+    "pt": "Medições para previsão:",
+    "fy": "Mjittings foar foarsizzing:",
+    "nl-gronings": "Meutings veur prognoze:",
+    "nl-nedersaksisch": "Meutings veur prognoze:",
+    "fr": "Mesures pour la prévision :"
+  },
+  "weersvoorspelling.measurements_loading": {
+    "nl": "Laden…",
+    "en": "Loading…",
+    "de": "Lädt…",
+    "pt": "A carregar…",
+    "fy": "Lade…",
+    "nl-gronings": "An 't laden…",
+    "nl-nedersaksisch": "An 't laden…",
+    "fr": "Chargement…"
+  },
+  "weersvoorspelling.title": {
+    "nl": "Weersvoorspelling",
+    "en": "Weather Forecast",
+    "de": "Wettervorhersage",
+    "pt": "Previsão do tempo",
+    "fy": "Waarberjocht",
+    "nl-gronings": "Weerprognoze",
+    "nl-nedersaksisch": "Weerprognoze",
+    "fr": "Prévisions météo"
+  },
+  "dagen.zondag": {
+    "nl": "Zondag",
+    "en": "Sunday",
+    "de": "Sonntag",
+    "pt": "Domingo",
+    "fy": "Snein",
+    "nl-gronings": "Zondag",
+    "nl-nedersaksisch": "Sondag",
+    "fr": "Dimanche"
+  },
+  "dagen.maandag": {
+    "nl": "Maandag",
+    "en": "Monday",
+    "de": "Montag",
+    "pt": "Segunda",
+    "fy": "Moandei",
+    "nl-gronings": "Maandag",
+    "nl-nedersaksisch": "Maandig",
+    "fr": "Lundi"
+  },
+  "dagen.dinsdag": {
+    "nl": "Dinsdag",
+    "en": "Tuesday",
+    "de": "Dienstag",
+    "pt": "Terça",
+    "fy": "Tiisdei",
+    "nl-gronings": "Dingsdag",
+    "nl-nedersaksisch": "Dingsdag",
+    "fr": "Mardi"
+  },
+  "dagen.woensdag": {
+    "nl": "Woensdag",
+    "en": "Wednesday",
+    "de": "Mittwoch",
+    "pt": "Quarta",
+    "fy": "Woansdei",
+    "nl-gronings": "Woensdag",
+    "nl-nedersaksisch": "Woensdag",
+    "fr": "Mercredi"
+  },
+  "dagen.donderdag": {
+    "nl": "Donderdag",
+    "en": "Thursday",
+    "de": "Donnerstag",
+    "pt": "Quinta",
+    "fy": "Tongersdei",
+    "nl-gronings": "Donderdag",
+    "nl-nedersaksisch": "Donderdag",
+    "fr": "Jeudi"
+  },
+  "dagen.vrijdag": {
+    "nl": "Vrijdag",
+    "en": "Friday",
+    "de": "Freitag",
+    "pt": "Sexta",
+    "fy": "Freed",
+    "nl-gronings": "Vrijdag",
+    "nl-nedersaksisch": "Vrijdag",
+    "fr": "Vendredi"
+  },
+  "dagen.zaterdag": {
+    "nl": "Zaterdag",
+    "en": "Saturday",
+    "de": "Samstag",
+    "pt": "Sábado",
+    "fy": "Sneon",
+    "nl-gronings": "Zaterdag",
+    "nl-nedersaksisch": "Zaterdag",
+    "fr": "Samedi"
+  },
+  "dashboard.state.charging": {
+    "nl": "Bezig met opladen",
+    "en": "Charging",
+    "de": "Am Laden",
+    "pt": "Carregando",
+    "fy": "Bezig mei opladen",
+    "nl-gronings": "Bezig met opladen",
+    "nl-nedersaksisch": "Bezig met opladen",
+    "fr": "En charge"
+  },
+  "dashboard.state.full": {
+    "nl": "Volledig geladen",
+    "en": "Fully charged",
+    "de": "Vollständig geladen",
+    "pt": "Volledig opgeladen",
+    "fy": "Folledig laden",
+    "nl-gronings": "Helemoal opgeladen",
+    "nl-nedersaksisch": "Vol",
+    "fr": "Complètement chargé"
+  },
+  "dashboard.state.discharging": {
+    "nl": "Ontladen",
+    "en": "Discharging",
+    "de": "Entladen",
+    "pt": "Ontladen",
+    "fy": "Loslitte",
+    "nl-gronings": "Ontlading",
+    "nl-nedersaksisch": "Ontlaaid",
+    "fr": "Décharge"
+  },
+  "dashboard.state.idle": {
+    "nl": "In rust",
+    "en": "Idle",
+    "de": "Im Leerlauf",
+    "pt": "Wachstand",
+    "fy": "Yn rêst",
+    "nl-gronings": "In rust",
+    "nl-nedersaksisch": "Stilstaand",
+    "fr": "Au repos"
+  },
+  "dashboard.state.unknown": {
+    "nl": "Onbekend",
+    "en": "Unknown",
+    "de": "Unbekannt",
+    "pt": "Desconhecido",
+    "fy": "Unbekend",
+    "nl-gronings": "Onbekend",
+    "nl-nedersaksisch": "Onbekend",
+    "fr": "Inconnu"
+  },
+  "dashboard.fetch_error": {
+    "nl": "Fout bij laden gegevens",
+    "en": "Error loading data",
+    "de": "Fehler beim Laden der Daten",
+    "pt": "Erro ao carregar os dados",
+    "fy": "Fout by it laden fan gegevens",
+    "nl-gronings": "Fout met laden van gegevens",
+    "nl-nedersaksisch": "Fout met data ophalen",
+    "fr": "Erreur lors du chargement des données"
+  }
+}
