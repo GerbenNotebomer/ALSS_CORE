@@ -3,14 +3,14 @@
 In dit project worden gevoelige instellingen zoals WiFi-wachtwoorden en API-sleutels **niet opgeslagen in versiebeheer** (zoals Git). In plaats daarvan moeten deze door de gebruiker handmatig worden toegevoegd in een apart bestand genaamd:
 
 ```
-src/config/parameters_private.cpp
+src/parameters/parameters_private.cpp
 ```
 
 ## ✏️ Wat moet je doen?
 
 1. **Maak het bestand aan** als het nog niet bestaat:
    ```
-   src/config/parameters_private.cpp
+   src/parameters/parameters_private.cpp
    ```
 
 2. **Vul het bestand met je persoonlijke instellingen.** Hieronder staat een voorbeeldstructuur:
@@ -63,7 +63,7 @@ bool parametersFromFile = false;
 
 - **Check `.gitignore`:** Voeg toe:
   ```
-  src/config/parameters_private.cpp
+  src/parameters/parameters_private.cpp
   ```
 
 - **Gebruik alleen lokaal:** Dit bestand is bedoeld om lokale geheimen en wachtwoorden in te bewaren. Deel dit bestand **nooit** publiekelijk.
