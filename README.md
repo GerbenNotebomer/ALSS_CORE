@@ -58,6 +58,7 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 5. Verbind met het WiFi netwerk van het apparaat of stel WiFi in in de code  
 6. Navigeer in je browser naar `http://<ip-van-je-esp>/dashboard` om het dashboard te openen  
 7. Voor debug logs navigeer naar `http://<ip-van-je-esp>/debuglog`
+8. **Upload de `/data` map met bestanden (zoals `translations.json`, CSS, logo’s) naar LittleFS** via de LittleFS uploader van de Arduino IDE of PlatformIO, zodat de webserver deze kan gebruiken.  
 
 ---
 
