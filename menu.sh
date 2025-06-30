@@ -34,14 +34,17 @@ while true; do
     6)
       echo "Pushen naar GitHub (exclusief parameters_private.cpp)..."
 
+      # Detecteer huidige branch
+      current_branch=$(git rev-parse --abbrev-ref HEAD)
+      echo "Huidige git branch: $current_branch"
+
       # Stap 1: Verwijder tijdelijke kopie van parameters_private.cpp als die er is
       TMP_FILE="src/parameters/parameters_private.cpp.tmp_for_git_ignore"
       if [ -f "$TMP_FILE" ]; then
         rm "$TMP_FILE"
       fi
 
-      # Stap 2: Maak een tijdelijke kopie van parameters_private.cpp met een andere naam
-      # (of verplaats tijdelijk)
+      # Stap 2: Maak een tijdelijke kopie (of verplaats) van parameters_private.cpp
       if [ -f "src/parameters/parameters_private.cpp" ]; then
         mv src/parameters/parameters_private.cpp "$TMP_FILE"
       fi
@@ -49,9 +52,7 @@ while true; do
       # Stap 3: Voeg alles toe, commit en force push
       git add .
       git commit -m "Forced update via script (exclusief parameters_private.cpp)" --allow-empty
-
-      # Force push naar main branch (pas aan als je een andere branch gebruikt)
-      git push origin main --force
+      git push origin "$current_branch" --force
 
       # Stap 4: Zet parameters_private.cpp terug
       if [ -f "$TMP_FILE" ]; then
