@@ -54,6 +54,15 @@ De dashboardpagina is volledig meertalig en biedt een moderne, responsieve gebru
 
 ---
 
+## Benodigde kennis en vaardigheden
+
+- **Basiskennis C++ en Arduino framework**: je moet comfortabel zijn met programmeren in C++ en bekend zijn met de Arduino-omgeving.  
+- **Ervaring met ESP32/ESP8266**: basiskennis van deze microcontrollers, zoals het instellen van WiFi en het uploaden van code, is vereist.  
+- **Webtechnologieën (basis)**: begrip van REST API’s, JSON en frontend technologieën zoals JavaScript en HTML helpt bij het begrijpen van het dashboard en het uitbreiden ervan.  
+- **Debugging en logging**: kennis van debugmethodes en het interpreteren van logbestanden is handig om problemen op te sporen en de debugfunctionaliteit effectief te gebruiken.
+
+---
+
 ## Voorbeeldcode voor registratie routes
 
 ```cpp
