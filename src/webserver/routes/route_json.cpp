@@ -127,4 +127,28 @@ void handleDataJSON(AsyncWebServerRequest *request)
 void RouteJson::registerRoutes(AsyncWebServer &server)
 {
     server.on("/data.json", HTTP_GET, handleDataJSON);
+    server.on("/data/language", HTTP_GET, handleLanguageJSON);  // <-- nieuwe regel
+}
+
+/*
+void RouteJson::registerRoutes(AsyncWebServer &server)
+{
+    server.on("/data.json", HTTP_GET, handleDataJSON);
+}
+*/
+
+
+//  --  handleLanguageJSON  --  //
+void handleLanguageJSON(AsyncWebServerRequest *request)
+{
+    File file = LittleFS.open("/lang/translations_app.json", "r");
+
+    if (!file || file.isDirectory())
+    {
+        request->send(404, "application/json", "{\"error\":\"File not found\"}");
+        return;
+    }
+
+    AsyncWebServerResponse *response = request->beginResponse(LittleFS, "/lang/translations_app.json", "application/json");
+    request->send(response);
 }

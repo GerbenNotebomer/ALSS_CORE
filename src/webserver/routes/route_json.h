@@ -11,3 +11,5 @@ public:
     static void buildDataJSON(StaticJsonDocument<2048> &jsonDoc);
     static void registerRoutes(AsyncWebServer &server);
 };
+// Nieuwe handler declaratie
+void handleLanguageJSON(AsyncWebServerRequest *request);

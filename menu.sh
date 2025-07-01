@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Vast pad naar jouw Python 3.13 executable
+PYTHON_EXEC="C:/Users/gknot/AppData/Local/Programs/Python/Python313/python.exe"
+
 while true; do
   echo "=== ESP32-S2 PlatformIO Menu ==="
   echo "0) Exit"
@@ -8,7 +11,9 @@ while true; do
   echo "3) Build and Upload project"
   echo "4) Upload LittleFS data"
   echo "5) Push project naar GitHub"
-  read -p "Kies een optie (0-5): " choice
+  echo "6) Vertalingen genereren (ODS → JSON)"
+  echo "7) Vertalingen deployen naar ESP32 (data/lang)"
+  read -p "Kies een optie (0-7): " choice
 
   case $choice in
     0)
@@ -33,24 +38,25 @@ while true; do
       ;;
     5)
       echo "Pushen naar GitHub..."
-
-      # Detecteer huidige branch
       current_branch=$(git rev-parse --abbrev-ref HEAD)
       echo "Huidige git branch: $current_branch"
-
-      # Alles toevoegen en committen (ook als er geen wijziging is)
       git add .
       git commit -m "Forced update via script" --allow-empty
-
-      # Force push naar huidige branch
       git push origin "$current_branch" --force
-
       echo "Push voltooid."
+      ;;
+    6)
+      echo "Vertalingen genereren vanuit ODS..."
+      "$PYTHON_EXEC" src/language/translationtools/ods_to_json_translations.py
+      ;;
+    7)
+      echo "Vertalingen deployen naar ESP32 map..."
+      "$PYTHON_EXEC" src/language/translationtools/deploy_translations.py
       ;;
     *)
       echo "Ongeldige optie. Probeer het opnieuw."
       ;;
   esac
 
-  echo ""  # lege regel voor overzichtelijkheid
+  echo ""  # lege regel voor overzicht
 done

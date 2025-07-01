@@ -1,41 +1,59 @@
 import ezodf
 import json
+import os
 
-INPUT_ODS = "translations.ods"
-OUTPUT_JSON = "translations.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def convert_ods_to_json(input_path, output_path):
-    ezodf.config.set_table_expand_strategy('all')  # Laad alles
+INPUT_ODS = os.path.join(BASE_DIR, "..", "translations_src", "translations.ods")
+OUTPUT_WEB_JSON = os.path.join(BASE_DIR, "translations.json")
+OUTPUT_APP_JSON = os.path.join(BASE_DIR, "translations_app.json")
+
+def convert_ods_to_json(input_path, output_web, output_app):
+    ezodf.config.set_table_expand_strategy('all')
     doc = ezodf.opendoc(input_path)
-    sheet = doc.sheets[0]  # neem eerste werkblad
+    sheet = doc.sheets[0]
+    rows = list(sheet.rows())
 
-    rows = list(sheet.rows())  # generator naar lijst omzetten
-    headers = [cell.value for cell in rows[0]]  # eerste rij als headers
-    translations = {}
+    headers = [str(cell.value).strip() if cell.value else "" for cell in rows[0]]
+    translations_all = {}
+    translations_app = {}
 
-    total_rows = len(rows) - 1  # excl. header
+    lang_headers = headers[1:-1]  # alles tussen key en 'alls_ap'
+    last_col = headers[-1]
+    if last_col.lower() not in ['alls_ap', 'app', 'voor_app']:
+        print("⚠️ Waarschuwing: laatste kolom heet niet 'alls_ap' maar:", last_col)
+
+    total_rows = len(rows) - 1
     for i, row in enumerate(rows[1:], start=1):
         values = [cell.value for cell in row]
         if not values or not values[0]:
-            continue  # sla lege rijen of lege key over
+            continue
+
         key = str(values[0]).strip()
-        translations[key] = {}
-
-        for col_index, lang in enumerate(headers[1:], start=1):  # skip 'key'
+        trans = {}
+        for col_index, lang in enumerate(lang_headers, start=1):
             val = values[col_index]
-            if val is not None:
-                translations[key][lang] = str(val).strip()
+            if val:
+                trans[lang] = str(val).strip()
 
-        # Voortgang printen (elke 10 regels)
+        translations_all[key] = trans
+
+        include_for_app = str(values[-1]).strip().lower() in ['ja', 'yes', 'true', '1']
+        if include_for_app:
+            translations_app[key] = trans
+
         if i % 10 == 0 or i == total_rows:
             percent = (i / total_rows) * 100
             print(f"Verwerkt {i} van {total_rows} rijen ({percent:.1f}%)")
 
-    # Schrijf naar JSON
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(translations, f, indent=2, ensure_ascii=False)
+    with open(output_web, "w", encoding="utf-8") as f1:
+        json.dump(translations_all, f1, indent=2, ensure_ascii=False)
 
-    print(f"✅ {output_path} is opgeslagen.")
+    with open(output_app, "w", encoding="utf-8") as f2:
+        json.dump(translations_app, f2, indent=2, ensure_ascii=False)
+
+    print(f"✅ {output_web} en {output_app} opgeslagen.")
 
 if __name__ == "__main__":
-    convert_ods_to_json(INPUT_ODS, OUTPUT_JSON)
+    convert_ods_to_json(INPUT_ODS, OUTPUT_WEB_JSON, OUTPUT_APP_JSON)
+

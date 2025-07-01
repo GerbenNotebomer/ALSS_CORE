@@ -1,0 +1,292 @@
+{
+  "dashboard.batteries": {
+    "nl": "🔋 Accu's",
+    "en": "🔋 Batteries",
+    "de": "🔋 Batterien",
+    "pt": "🔋 Baterias",
+    "fy": "🔋 Batterijen",
+    "nl-gronings": "🔋 Batterien",
+    "nl-nedersaksisch": "🔋 Accu’s",
+    "fr": "🔋 Batteries"
+  },
+  "dashboard.battery": {
+    "nl": "Accu",
+    "en": "Battery",
+    "de": "Akku",
+    "pt": "Bateria",
+    "fy": "Batterij",
+    "nl-gronings": "Batterij",
+    "nl-nedersaksisch": "Accu",
+    "fr": "Batterie"
+  },
+  "dashboard.channel": {
+    "nl": "Kanaal",
+    "en": "Channel",
+    "de": "Kanal",
+    "pt": "Canal",
+    "fy": "Kanaal",
+    "nl-gronings": "Kanaal",
+    "nl-nedersaksisch": "Kanaal",
+    "fr": "Canal"
+  },
+  "dashboard.current": {
+    "nl": "⚡ Stroom (A)",
+    "en": "⚡ Current (A)",
+    "de": "⚡ Strom (A)",
+    "pt": "⚡ Corrente (A)",
+    "fy": "⚡ Stream (A)",
+    "nl-gronings": "⚡ Stroom (A)",
+    "nl-nedersaksisch": "⚡ Stroom (A)",
+    "fr": "⚡ Courant (A)"
+  },
+  "dashboard.humidity_aht": {
+    "nl": "Luchtvochtigheid AHT20 (%)",
+    "en": "AHT20 Humidity (%)",
+    "de": "AHT20‑Luftfeuchtigkeit (%)",
+    "pt": "Umidade AHT20 (%)",
+    "fy": "Loftvochtichheid AHT20 (%)",
+    "nl-gronings": "Luchtvochtigheid AHT20 (%)",
+    "nl-nedersaksisch": "Luchtvochtigheid AHT20 (%)",
+    "fr": "Humidité AHT20 (%)"
+  },
+  "dashboard.loading": {
+    "nl": "Laden...",
+    "en": "Loading...",
+    "de": "Lädt…",
+    "pt": "Carregando...",
+    "fy": "Laden…",
+    "nl-gronings": "Bezig met laden...",
+    "nl-nedersaksisch": "An ’t laden...",
+    "fr": "Chargement..."
+  },
+  "dashboard.no_battery": {
+    "nl": "Geen batterijgegevens beschikbaar",
+    "en": "No battery data available",
+    "de": "Keine Batteriedaten verfügbar",
+    "pt": "Nenhuma informação da bateria disponível",
+    "fy": "Gjin batterijgegevens beskikber",
+    "nl-gronings": "Naait batterijdata beskikbaar",
+    "nl-nedersaksisch": "Der bint gien batterijgegevens beschikbaar",
+    "fr": "Aucune donnée de batterie disponible"
+  },
+  "dashboard.no_sensor": {
+    "nl": "Sensor data niet beschikbaar",
+    "en": "Sensor data not available",
+    "de": "Sensordaten nicht verfügbar",
+    "pt": "Dados do sensor não disponíveis",
+    "fy": "Sensordata net beskikber",
+    "nl-gronings": "Sensor data neet bescchikbaar",
+    "nl-nedersaksisch": "Sensorgegevens nait beschikbaar",
+    "fr": "Données du capteur non disponibles"
+  },
+  "dashboard.power": {
+    "nl": "💡 Vermogen (W)",
+    "en": "💡 Power (W)",
+    "de": "💡 Leistung (W)",
+    "pt": "💡 Potência (W)",
+    "fy": "💡 Krêft (W)",
+    "nl-gronings": "💡 Vermogen (W)",
+    "nl-nedersaksisch": "💡 Vermogen (W)",
+    "fr": "💡 Puissance (W)"
+  },
+  "dashboard.pressure": {
+    "nl": "Druk (hPa)",
+    "en": "Pressure (hPa)",
+    "de": "Druck (hPa)",
+    "pt": "Pressão (hPa)",
+    "fy": "Druk (hPa)",
+    "nl-gronings": "Druk (hPa)",
+    "nl-nedersaksisch": "Druk (hPa)",
+    "fr": "Pression (hPa)"
+  },
+  "dashboard.raw_pressure": {
+    "nl": "Ruwe druk",
+    "en": "Raw pressure",
+    "de": "Rohdruck",
+    "pt": "Pressão bruta",
+    "fy": "Rauwe druk",
+    "nl-gronings": "Rauwe druk",
+    "nl-nedersaksisch": "Rauwe druk",
+    "fr": "Pression brute"
+  },
+  "dashboard.remaining_time": {
+    "nl": "Resterende tijd",
+    "en": "Remaining time",
+    "de": "Verbleibende Zeit",
+    "pt": "Tempo restante",
+    "fy": "Resterjende tiid",
+    "nl-gronings": "Resterende tied",
+    "nl-nedersaksisch": "Resterende tied",
+    "fr": "Temps restant"
+  },
+  "dashboard.sea_pressure": {
+    "nl": "Sealevel druk",
+    "en": "Sea-level pressure",
+    "de": "Meereshöhenluftdruck",
+    "pt": "Pressão ao nível do mar",
+    "fy": "Seenivo druk",
+    "nl-gronings": "Zielnivo druk",
+    "nl-nedersaksisch": "Zielnivo druk",
+    "fr": "Pression au niveau de la mer"
+  },
+  "dashboard.sensors": {
+    "nl": "🌡️ AHT20 & BMP280 Sensoren",
+    "en": "🌡️ AHT20 & BMP280 Sensors",
+    "de": "🌡️ AHT20‑ & BMP280‑Sensoren",
+    "pt": "🌡️ Sensores AHT20 & BMP280",
+    "fy": "🌡️ AHT20 & BMP280‑sensors",
+    "nl-gronings": "🌡️ AHT20 & BMP280 Sensoren",
+    "nl-nedersaksisch": "🌡️ AHT20 & BMP280 Sensors",
+    "fr": "🌡️ Capteurs AHT20 & BMP280"
+  },
+  "dashboard.soc": {
+    "nl": "SoC (%)",
+    "en": "SoC (%)",
+    "de": "SoC (%)",
+    "pt": "SoC (%)",
+    "fy": "SoC (%)",
+    "nl-gronings": "SoC (%)",
+    "nl-nedersaksisch": "SoC (%)",
+    "fr": "SoC (%)"
+  },
+  "dashboard.status": {
+    "nl": "Status",
+    "en": "Status",
+    "de": "Status",
+    "pt": "Status",
+    "fy": "Status",
+    "nl-gronings": "Status",
+    "nl-nedersaksisch": "Status",
+    "fr": "Statut"
+  },
+  "dashboard.temperature_aht": {
+    "nl": "Temperatuur AHT20 (°C)",
+    "en": "AHT20 Temperature (°C)",
+    "de": "AHT20‑Temperatur (°C)",
+    "pt": "Temperatura AHT20 (°C)",
+    "fy": "Temperatuer AHT20 (°C)",
+    "nl-gronings": "Temperatuur AHT20 (°C)",
+    "nl-nedersaksisch": "Temperatuur AHT20 (°C)",
+    "fr": "Température AHT20 (°C)"
+  },
+  "dashboard.temperature_bmp": {
+    "nl": "Temperatuur BMP280 (°C)",
+    "en": "BMP280 Temperature (°C)",
+    "de": "BMP280‑Temperatur (°C)",
+    "pt": "Temperatura BMP280 (°C)",
+    "fy": "Temperatuer BMP280 (°C)",
+    "nl-gronings": "Temperatuur BMP280 (°C)",
+    "nl-nedersaksisch": "Temperatuur BMP280 (°C)",
+    "fr": "Température BMP280 (°C)"
+  },
+  "dashboard.title": {
+    "nl": "Dashboard INA3221",
+    "en": "INA3221 Dashboard",
+    "de": "INA3221-Dashboard",
+    "pt": "Painel INA3221",
+    "fy": "Dashboard INA3221",
+    "nl-gronings": "Dashboard INA3221",
+    "nl-nedersaksisch": "Dashboard INA3221",
+    "fr": "Tableau de bord INA3221"
+  },
+  "dashboard.voltage": {
+    "nl": "🔌 Spanning (V)",
+    "en": "🔌 Voltage (V)",
+    "de": "🔌 Spannung (V)",
+    "pt": "🔌 Tensão (V)",
+    "fy": "🔌 Spanning (V)",
+    "nl-gronings": "🔌 Spanning (V)",
+    "nl-nedersaksisch": "🔌 Spanning (V)",
+    "fr": "🔌 Tension (V)"
+  },
+  "nav.dashboard": {
+    "nl": "📈 Overzicht",
+    "en": "📈 Overview",
+    "de": "📈 Übersicht",
+    "pt": "📈 Visão geral",
+    "fy": "📈 Oersjoch",
+    "nl-gronings": "📈 Oversicht",
+    "nl-nedersaksisch": "📈 Oetzicht",
+    "fr": "📈 Aperçu"
+  },
+  "root.connect_dashboard": {
+    "nl": "Verbinden & Dashboard",
+    "en": "Connection & Dashboard",
+    "de": "Verbindung & Dashboard",
+    "pt": "Conexão & Painel",
+    "fy": "Ferbining & Dashboard",
+    "nl-gronings": "Verbinnen & Dashboard",
+    "nl-nedersaksisch": "Verbinden & Dashboard",
+    "fr": "Connexion & Tableau de bord"
+  },
+  "root.open_dashboard_wifi": {
+    "nl": "Open Dashboard via Wi-Fi",
+    "en": "Open Dashboard via Wi‑Fi",
+    "de": "Dashboard über Wi‑Fi öffnen",
+    "pt": "Abrir Painel via Wi‑Fi",
+    "fy": "Iepen Dashboard fia Wi‑Fi",
+    "nl-gronings": "Open Dashboard deur Wi-Fi",
+    "nl-nedersaksisch": "Open Dashboard via Wi-Fi",
+    "fr": "Ouvrir le tableau de bord via Wi-Fi"
+  },
+  "dashboard.state.charging": {
+    "nl": "Bezig met opladen",
+    "en": "Charging",
+    "de": "Am Laden",
+    "pt": "Carregando",
+    "fy": "Bezig mei opladen",
+    "nl-gronings": "Bezig met opladen",
+    "nl-nedersaksisch": "Bezig met opladen",
+    "fr": "En charge"
+  },
+  "dashboard.state.full": {
+    "nl": "Volledig geladen",
+    "en": "Fully charged",
+    "de": "Vollständig geladen",
+    "pt": "Volledig opgeladen",
+    "fy": "Folledig laden",
+    "nl-gronings": "Helemoal opgeladen",
+    "nl-nedersaksisch": "Vol",
+    "fr": "Complètement chargé"
+  },
+  "dashboard.state.discharging": {
+    "nl": "Ontladen",
+    "en": "Discharging",
+    "de": "Entladen",
+    "pt": "Ontladen",
+    "fy": "Loslitte",
+    "nl-gronings": "Ontlading",
+    "nl-nedersaksisch": "Ontlaaid",
+    "fr": "Décharge"
+  },
+  "dashboard.state.idle": {
+    "nl": "In rust",
+    "en": "Idle",
+    "de": "Im Leerlauf",
+    "pt": "Wachstand",
+    "fy": "Yn rêst",
+    "nl-gronings": "In rust",
+    "nl-nedersaksisch": "Stilstaand",
+    "fr": "Au repos"
+  },
+  "dashboard.state.unknown": {
+    "nl": "Onbekend",
+    "en": "Unknown",
+    "de": "Unbekannt",
+    "pt": "Desconhecido",
+    "fy": "Unbekend",
+    "nl-gronings": "Onbekend",
+    "nl-nedersaksisch": "Onbekend",
+    "fr": "Inconnu"
+  },
+  "dashboard.fetch_error": {
+    "nl": "Fout bij laden gegevens",
+    "en": "Error loading data",
+    "de": "Fehler beim Laden der Daten",
+    "pt": "Erro ao carregar os dados",
+    "fy": "Fout by it laden fan gegevens",
+    "nl-gronings": "Fout met laden van gegevens",
+    "nl-nedersaksisch": "Fout met data ophalen",
+    "fr": "Erreur lors du chargement des données"
+  }
+}
